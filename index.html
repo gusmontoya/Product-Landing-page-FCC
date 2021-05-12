@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Made Easy</title>
+</head>
+
+<body>
+    <header id="header"> <!--class=nav-->
+        <div class="bar-combined">
+            <div id="header-img"><!--class=logo-->
+                     <a href="#"><img src="images/Logo.svg" alt="Vew from tent"></a>
+            </div>
+                  <nav id="nav-bar"><!--div class=menu-->
+                      <ul>
+                         <li><a class="nav-link" href="#header">Home</a></li>
+                         <li><a class="nav-link" href="#benefits">Benefits</a></li>
+                         <li><a class="nav-link" href="#media">Media</a></li>
+                         <li><a class="nav-link" href="#resources">Resources</a></li>
+                         <li><a class="nav-link" href="#register">Register</a></li>
+                      </ul>
+                      <div class="burger">
+                            <div class="class1"></div>
+                            <div class="class2"></div>
+                            <div class="class3"></div>
+                            <div class="class4"></div>
+                            <div class="class5"></div>
+                      </div>
+                  </nav>
+                  <div class="bg-light text-center">
+                    <div class="container container--narrow">
+                      <h1 class="main-quote">Unwind and disconnect for a day in the lap of nature!</h1>
+                    </div>
+              </div>
+        </div>
+    </header>
+            
+        <section id="benefits">
+            <h2 id="dark" class="text-center">Benefits of being with nature</h2>
+            <hr class="style1"> 
+            <div class="split" id="reasons"> <!--Going to use display: flex;-->
+                <div>
+                    <h2 id="dark">THE FRESH AIR</h2>
+                    <p class="explained">When you spend time near a lot of trees, you take in more oxygen. Your body can function with less strain when there's plenty of oxygen.
+                        That's not the only benefit of fresh air. Research shows that some time outdoors can improve your blood pressure, improve digestion and
+                        give your immune system an extra boost. When you spend a few days outside, you get some serious health benefits from the extra oxygen and
+                        low levels of pollutants.</p>
+                </div>
+                <div>
+                    <h2 id="dark">IMPROVED MOODS</h2>
+                    <p class="explained">Regular campers will often talk about how the first few days back from a trip seem happier. This isn't without merit; spending some time 
+                        outside in the sunlight can even out the levels of melatonin in your brain. Melatonin is the chemical that makes you feel tired and can
+                        induce feelings of depression, so by camping, you can enjoy better overall moods during and after your trip.</p>
+                </div>
+                <div>
+                    <h2 id="dark">LESS STRESS</h2>
+                    <p class="explained">Camping also allows you to cope with stress. Stress can negatively affect your health in just about every way possible, and you're putting 
+                        much less strain on your mental and physical faculties by giving yourself some stress-free time at the campsite. The lack of stress is
+                        related to the rise in oxygen levels, higher levels of serotonin and managed levels of melatonin mentioned above. </p>
+                </div>
+            </div>
+        </section>
+        <br>
+
+        <section id="media" class="bg-light" class="text-center">
+            <div class="container">
+                <div class="split-video">
+                    <h2 id="dark" class="desc-vid">Please watch this short video</h2>
+                    <hr class="style1"> 
+                    <div class="video-link">
+                        <iframe id=”video” width="620" height="515"
+                      src="https://www.youtube.com/embed/yfLz54hzpPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    
+                </div>
+            </div>
+      </section>
+
+        <section id="resources" class="bg-dark">
+            <div class="container">
+                <div class="split">
+                    <div class="para">
+                        <h2>Pristine wilderness to explore</h2>
+                        <p> California has over 51 parks with more than 4.3 miilion acres to see. 
+                            Each special with their own geography, climate and unique wild life. 
+                            For a complete list of parks please <a href="http://www.totalescape.com/outside/destinations/california-wilderness-list/"> click here</a>.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://cdn.wallpapersafari.com/10/27/stNO8G.jpg" alt="picture of forest river">
+                
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary">
+            <div class="container">
+                <div class="split">
+                    <div>
+                        <img src="https://www.boundless.co.uk/-/media/Images/Articles/Walking%20as%20a%20family/Family-walk-forest-mum-kids.ashx?cw=770&ch=445&hash=324100BF494504C14EE1DFB755558D6D58F3D50D" alt="picture of forest">
+                    </div>
+                    <div class="para">
+                        <h2>Endless trails to hike</h2>
+                        <p>California has miles upon miles od trails to hike and enjoy. One has to go prepared and follow safe practices to enjoy to their fullest. Plan early and diligently and pair 
+                            your hiking skill level to the appropriate trail. For a complete list of tails and safety guidelines clink on this <a href="https://www.traillink.com/stateactivity/ca-hiking-trails/">link here.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="register" class="text-center">
+            <h1 id="free">Nature is free, for everyone! Only give a donation at the entrance of each park.</h1>
+                <h2>Register today to reserve a camp site!</h2>
+                <hr class="style1"> 
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+              />
+              <input id="submit" type="submit" value="Get Started"
+               class="btn"/>
+            </form>
+            </section>
+            
+    <footer>
+        <div  id="copy-right">
+            <span>Copyright 2021, Demo by Gus</span>
+        </div>
+        <div id="footer-list"> 
+            <ul>
+               <li><a href="#">Privacy</a></li>
+               <li><a href="#">Terms</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+      </footer>
+              
+            </div>
+        </div>
+</body>
+</html>
