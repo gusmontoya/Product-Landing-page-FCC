@@ -8,38 +8,35 @@
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <title>Responsive Made Easy</title>
 </head>
 
 <body>
     <header id="header"> <!--class=nav-->
-        <div class="bar-combined">
-            <div id="header-img"><!--class=logo-->
-                     <a href="#"><img src="images/Logo.svg" alt="Vew from tent"></a>
-            </div>
-                  <nav id="nav-bar"><!--div class=menu-->
-                      <ul>
+        <nav id="nav-bar"><!--div class=menu-->
+        
+            <ul ><!--class=logo-->
+                <li id="brand">
+
+                    <a href="#"><img id="header-img" src="images/Logo.png" alt="Vew from tent"></a>
+                </li>
                          <li><a class="nav-link" href="#header">Home</a></li>
                          <li><a class="nav-link" href="#benefits">Benefits</a></li>
                          <li><a class="nav-link" href="#media">Media</a></li>
                          <li><a class="nav-link" href="#resources">Resources</a></li>
                          <li><a class="nav-link" href="#register">Register</a></li>
-                      </ul>
-                      <div class="burger">
-                            <div class="class1"></div>
-                            <div class="class2"></div>
-                            <div class="class3"></div>
-                            <div class="class4"></div>
-                            <div class="class5"></div>
-                      </div>
-                  </nav>
-                  <div class="bg-light text-center">
-                    <div class="container container--narrow">
-                      <h1 class="main-quote">Unwind and disconnect for a day in the lap of nature!</h1>
-                    </div>
-              </div>
-        </div>
+            </ul>
+        </nav>
     </header>
+    <section id="hero">
+
+        <div class="bg-light text-center">
+          <div class="container container--narrow">
+            <h1 class="main-quote">Unwind and disconnect for a day in the lap of nature!</h1>
+          </div>
+    </div>
+    </section>
             
         <section id="benefits">
             <h2 id="dark" class="text-center">Benefits of being with nature</h2>
@@ -74,8 +71,8 @@
                     <h2 id="dark" class="desc-vid">Please watch this short video</h2>
                     <hr class="style1"> 
                     <div class="video-link">
-                        <iframe id=”video” width="620" height="515"
-                      src="https://www.youtube.com/embed/yfLz54hzpPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="620" height="515"
+                      src="https://www.youtube.com/embed/yfLz54hzpPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
                       </div>
                     
                 </div>
