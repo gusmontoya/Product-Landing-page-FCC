@@ -35,7 +35,7 @@ h1,
 h3 {
   color: var(--clr-primary-200);
   font-family: var(--ff-accent);
-  font-weight: 900;
+  font-weight: 1300;
   line-height: 1; /* height between text lines */
 }
 
@@ -46,50 +46,84 @@ p {
 }
 
 img {
-  display: block;
+  /* display: block; */
   max-width: 100%;
 }
+
 .text-center {
   text-align: center;
   color: var(--clr-primary-400);
 }
 
-header,
+/* header,
 section {
-  /* padding: 1rem 0; */
-}
+  padding: 1rem 0;
+} */
 
 hr.style1 {
   border-top: 1px solid var(--clr-primary-400);
   width: 300px;
 }
 
+/* ------------------------------ */
 /*-------Nav bar with Logo--------*/
+/* -------------------------------*/
+
 #header {
+  display: inline;
   width: 100vw;
   height: 10vh;
   min-height: 100px;
   font-family: Montserrat;
-  top: 0;
   position: fixed;
   z-index: 100;
-  background-color: white;
-  color: black;
-  padding-top: 0px !important;
+  background-color: var(--clr-primary-200);
+  color: var(--clr-primary-200);
+  padding-top: 0px;
+  box-shadow: 10px 10px 5px 0 rgba(0,0,0,.2);
 }
-#brand {
+/* #brand {
   width: 40vw;
-}
+} */
 
-#header-img {
-  /*display: inline-block;*/
-  /* width: 250px; */
-  max-height: 80px;
-}
 #nav-bar {
   width: 100%;
   height: 100%;
 }
+
+#nav-bar ul {
+  list-style: none;
+  height: 100%;
+  float: right;
+  padding-top: 5px;
+  padding-right: 30; 
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  padding: 10px 30px 0 0;
+  margin-right: 30px;
+  max-height: 90px;
+}
+
+
+#nav-bar ul li a {
+  display: block;
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+  font-size: 20px;
+}
+
+#header-img {
+  display: inline; 
+  padding-left: 30px;
+  height: 100%;
+  width: auto; 
+}
+
+/* ----------------- */
+/* Header-image -Main quote */
+/* ----------------- */
 
 #hero {
   width: 100vw;
@@ -103,33 +137,16 @@ hr.style1 {
     url(images/out-of-tent.jpg);
 }
 
-.burger div {
+/* .burger div {
   width: 25px;
   height: 3px;
   color: var(--clr-primary-200);
   margin: 5px;
-}
+} */
 
-/*--.menu ul--*/
-#nav-bar ul {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding-left: 0;
-}
-/*--.menu ul li--*/
-#nav-bar ul li {
-  display: inline-block;
-  max-height: 90px;
-}
-/*--.menu ul li a--*/
-#nav-bar ul li a {
-  text-decoration: none;
-  color: var(--clr-neutral-900);
-  font-size: 16px;
-  /* padding: 0 20px; */
-}
+/*--------------------------*/
+/*---from main quote down---*/
+/*--------------------------*/
 
 .main-quote {
   position: absolute;
@@ -142,6 +159,10 @@ hr.style1 {
   max-width: 34rem; /*Limits the size of <h1> at header for better mobile use */
   /* position: relative;*/
 }
+
+/* -------- */
+/* Benefits */
+/* -------- */
 
 #dark {
   color: var(--clr-primary-400);
@@ -186,8 +207,16 @@ hr.style1 {
   align-content: center;
   justify-content: center;
   color: var(--clr-primary-400);
-  padding-top: 50px 0 0 0;
+  padding-top: 50px;
 }
+#free h1{
+  padding: 50px 0 50px 0;
+}
+
+#free h1{
+  padding-bottom: 50px;
+}
+
 #plans h2 {
   display: flex;
   align-content: center;
@@ -195,6 +224,7 @@ hr.style1 {
   color: var(--clr-primary-400);
   padding-top: 50px 0 0 0;
 }
+
 #register {
   margin: 80px;
 }
@@ -228,7 +258,10 @@ footer ul li a {
   padding-left: 45px;
   padding-right: 60%;
 }
+
+/* --------------------------------------------- */
 /*-------BELOW IS NEW------ABOVE IS OLD----------*/
+/* --------------------------------------------- */
 
 /*--Limit picture size--*/
 @media (max-width: 40em) {
@@ -273,7 +306,11 @@ footer ul li a {
   margin: 0;
   padding: 0;
 }
+#resources {
+  padding: 30px 0 30px 0;
+}
 .bg-primary {
+  padding: 30px 0 30px 0;
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-400);
 }
@@ -286,3 +323,4 @@ footer ul li a {
 .bg-dark h2 {
   color: var(--clr-primary-200);
 }
+
