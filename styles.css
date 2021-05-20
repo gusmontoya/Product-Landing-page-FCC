@@ -236,8 +236,10 @@ footer {
 footer {
   display: inline-flex;
   justify-content: right;
+  align-items: center;
+  height: 70px;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 40px;
   color: var(--clr-primary-200);
   background-color: var(--clr-neutral-900);
 }
@@ -245,7 +247,7 @@ footer ul {
   display: inline;
   text-align: right;
   list-style: none;
-  word-spacing: 30px;
+  word-spacing: 20px;
 }
 footer ul li {
   display: inline-flex;
@@ -256,7 +258,7 @@ footer ul li a {
 }
 #copy-right {
   padding-left: 45px;
-  padding-right: 60%;
+  padding-right: 50%;
 }
 
 /* --------------------------------------------- */
