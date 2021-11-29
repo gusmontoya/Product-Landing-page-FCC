@@ -7,3 +7,5 @@ good imaging and an youtube video link to display a product. My product is natur
 
 ## To view the site
   You can view the site by running LIve server on VS Code or simply drag and drop the index.html file into any browser. 
+  OR
+  you can view it here: https://eloquent-goldstine-8169ff.netlify.app/
