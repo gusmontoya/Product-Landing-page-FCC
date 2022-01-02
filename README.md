@@ -9,4 +9,4 @@ good imaging and an youtube video link to display a product. The best possible p
 ## To view the site
   You can view the site by running Live server on VS Code or simply drag and drop the index.html file into any browser. 
   OR
-  you can view it here: https://eloquent-goldstine-8169ff.netlify.app/
+  you can view it here: <a href="https://eloquent-goldstine-8169ff.netlify.app/" target="_blank">VIEW DEMO HERE</a>
